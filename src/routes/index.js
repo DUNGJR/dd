@@ -4,7 +4,7 @@ const productsRouter = require('./products');
 
 
 function route(app) {
-  app.use('/products', productsRouter);
+  app.use('/', productsRouter);
   app.use('/news', newsRouter);
   app.use('/', siteRouter);
   

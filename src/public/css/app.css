@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 :root {
   --white-color: #fff;
   --black-color: #000;
@@ -145,7 +147,7 @@ html {
 
 /* Footer */
 .footer {
-  border-top: 2px solid var(--primary-color); }
+  padding-top: 20px; }
 
 .footer__heading {
   font-size: 1.4rem;
@@ -179,6 +181,261 @@ html {
   margin: 0;
   text-align: center;
   font-size: 1.2rem; }
+
+.cart__container {
+  max-width: 100%;
+  margin: auto;
+  background-color: rgba(128, 128, 128, 0.1);
+  font-size: 15px; }
+
+.cart-page {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  background-color: rgba(128, 128, 128, 0.1); }
+
+.cart-info img {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.1);
+  margin-right: 10px; }
+
+table {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-collapse: collapse; }
+
+td {
+  padding: 15px 15px; }
+
+td input {
+  width: 30px;
+  height: 30px;
+  padding: 5px; }
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap; }
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: fff;
+  background-color: antiquewhite; }
+
+a {
+  color: tomato; }
+
+.total-price table {
+  width: 100%;
+  max-width: 435px; }
+
+td:last-child {
+  text-align: right; }
+
+th:last-child {
+  text-align: right; }
+
+.buybtn {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  background-color: antiquewhite; }
+
+.button2 {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.btn {
+  padding: 20px 70px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: ease 0.5s; }
+
+.btn:hover {
+  background: #79b9eb; }
+
+.total-price {
+  width: 300px; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  border-bottom: 2px solid var(--primary-color); }
+
+.img-feature {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  margin: auto; }
+
+.main {
+  height: 70%;
+  background-color: rgba(128, 128, 128, 0.1);
+  margin-bottom: 25px; }
+
+.list {
+  height: 20%;
+  display: flex; }
+
+.active {
+  background: #fc919f; }
+
+.control {
+  position: absolute;
+  top: 35%;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  cursor: pointer; }
+
+ion-icon {
+  stroke-width: 16px; }
+
+.control__next {
+  right: 52%; }
+
+.LeftBlock {
+  width: 40%;
+  height: 800px;
+  margin: 30px;
+  border-radius: 50px; }
+
+.LeftBlock_list {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 10px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain; }
+
+.LeftBlock_list img {
+  width: 120px;
+  height: 120px;
+  display: grid; }
+
+.listitem {
+  padding: 5px;
+  border-radius: 10px; }
+
+.listitem + .listitem {
+  margin-left: 10px; }
+
+.HeaderBox {
+  width: 70%;
+  margin-top: 5px; }
+
+.HeaderBox__Item {
+  margin-top: 5px; }
+
+.RightBlock {
+  width: 40%;
+  height: 600px;
+  margin: 30px; }
+
+.topline {
+  border-top: 1px solid grey;
+  height: 100px; }
+
+.botline {
+  border-bottom: 1px solid grey;
+  height: 100px; }
+
+.FirstBlock__ItemPrice {
+  display: flex;
+  align-items: center;
+  height: 70px; }
+
+.color-group {
+  display: flex;
+  column-gap: 5px; }
+
+.color-group {
+  display: flex;
+  align-items: center; }
+
+.select-color {
+  padding: 10px 0px; }
+
+.color {
+  width: 35px;
+  height: 35px;
+  background: none;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin-top: 5px; }
+
+.color-black {
+  background-color: #242424; }
+
+.color-blue {
+  background-color: #085ea0; }
+
+.color-yellow {
+  background-color: #c0b50d; }
+
+.color-red {
+  background-color: #8b0516; }
+
+.color-white {
+  background-color: #ededed; }
+
+.color:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3); }
+
+.active-color {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3); }
+
+.color-groups {
+  padding: 1rem 0;
+  display: flex; }
+
+.quantity {
+  margin-top: 10px; }
+
+.btn-group {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 20px; }
+
+.count {
+  display: flex;
+  align-items: center; }
+
+.arr {
+  border: 0.5px solid black;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.arr:hover {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3); }
+
+.btn {
+  margin-top: 20px;
+  padding: 20px 70px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: ease 0.5s; }
+
+.btn:hover {
+  background: #79b9eb; }
+
+.btn + .btn {
+  margin-left: 20px; }
+
+ion-icon {
+  color: #5f5f5f; }
 
 .header {
   height: 120px;
@@ -631,3 +888,131 @@ i.home-product-item__like-icon-fill {
 
 .home-product__pagination {
   margin: 0 0 50px; }
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  object-fit: contain;
+  background-size: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px; }
+
+.form-box {
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: rgba(160, 174, 233, 0.5);
+  border: 2px solid rgba(243, 243, 243, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+h1 {
+  text-align: center; }
+
+.form-group {
+  position: relative;
+  margin: 30px 0;
+  width: 310px;
+  border-bottom: 2px solid #fff; }
+
+.form-group label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s; }
+
+.form-input:not(:placeholder-shown) + .form-label,
+.form-input:focus + .form-label {
+  top: -5px; }
+
+.form-group input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+  padding: 0 0 0 5px;
+  color: #fff; }
+
+.form-group ion-icon {
+  position: absolute;
+  right: 8px;
+  color: #fff;
+  font-size: 1.2em;
+  top: 20px; }
+
+.remember-checkbox {
+  margin: -15px 0 15px;
+  font-size: .9em;
+  color: #fff;
+  display: flex;
+  justify-content: space-between; }
+
+.remember-checkbox label input {
+  margin-right: 3px; }
+
+button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600; }
+
+.button ion-icon {
+  position: relative;
+  left: 0;
+  top: 5px;
+  font-size: 20px; }
+
+.Register p a:hover {
+  color: #fff; }
+
+.Register {
+  margin: auto; }
+
+body {
+  background: #f9f9f9;
+  font-family: "Roboto", sans-serif; }
+
+section {
+  font-size: large; }
+
+.shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important; }
+
+.profile-tab-nav {
+  min-width: 250px; }
+
+.tab-content {
+  flex: 1; }
+
+.form-group {
+  margin-bottom: 1.5rem; }
+
+.nav-pills a.nav-link {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+  color: #333; }
+
+.nav-pills a.nav-link i {
+  width: 20px; }
+
+.img-circle img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #fff; }
